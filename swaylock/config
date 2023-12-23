@@ -1,0 +1,47 @@
+daemonize
+show-failed-attempts
+
+clock
+datestr=%a, %B %e
+timestr=%I:%M %p
+
+image=~/.config/hypr/gruvbox.png
+fade-in=0.3
+
+font="Jet Brains Mono Nerd Font"
+
+indicator
+indicator-idle-visible
+indicator-radius=150
+indicator-thickness=20
+
+inside-color=fbf1c700
+ring-color=fbf1c7
+line-color=fbf1c7
+
+key-hl-color=d79921
+bs-hl-color=689d6a
+
+inside-wrong-color=fbf1c700
+line-wrong-color=cc241d
+ring-wrong-color=cc241d
+text-wrong-color=cc241d
+
+inside-clear-color=fbf1c700
+ring-clear-color=fbf1c7
+line-clear-color=fbf1c7
+text-clear-color=fbf1c7
+
+separator-color=00000000
+text-color=fbf1c7
+text-caps-lock-color=cc241d
+
+inside-ver-color=fbf1c700
+ring-ver-color=fbf1c7
+line-ver-color=fbf1c7
+text-ver-color=fbf1c7
+
+grace=1
+grace-no-mouse
+grace-no-touch
+ignore-empty-password

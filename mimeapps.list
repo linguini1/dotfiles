@@ -1,0 +1,10 @@
+[Default Applications]
+image/x-nikon-nef=kitty.desktop
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=firefox.desktop
+
+[Added Associations]
+image/x-nikon-nef=firefox.desktop;
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=firefox.desktop;
+
+[Removed Associations]
+image/x-nikon-nef=kitty.desktop;
