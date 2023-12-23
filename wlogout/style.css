@@ -1,0 +1,108 @@
+@import url("/home/linguini/.config/gtk-3.0/gruvbox.css");
+
+* {
+  background-image: none;
+}
+
+window {
+  background: alpha(@bg0_h, 0.7);
+}
+
+button {
+  font-size: 30px;
+  font-weight: 900;
+  color: @fg;
+  background: alpha(@bg, 0.2);
+  border-style: solid;
+  border-width: 8px;
+  border-color: @fg;
+  border-radius: 30px;
+  margin: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Shutdown */
+#shutdown:focus,
+#shutdown:active,
+#shutdown:hover {
+  background-color: alpha(@red-dark, 0.2);
+  border-color: @red-dark;
+}
+
+/* Hibernate */
+#hibernate:focus,
+#hibernate:active,
+#hibernate:hover,
+#suspend:focus,
+#suspend:active,
+#suspend:hover {
+  background-color: alpha(@blue-dark, 0.2);
+  border-color: @blue-dark;
+}
+
+/* Lock */
+#lock:focus,
+#lock:active,
+#lock:hover {
+  background-color: alpha(@green-dark, 0.2);
+  border-color: @green-dark;
+}
+
+/* Logout */
+#logout:focus,
+#logout:active,
+#logout:hover {
+  background-color: alpha(@yellow-dark, 0.2);
+  border-color: @yellow-dark;
+}
+
+/* Reboot */
+#reboot:focus,
+#reboot:active,
+#reboot:hover {
+  background-color: alpha(@orange-dark, 0.2);
+  border-color: @orange-dark;
+}
+
+#lock {
+  background-image: image(
+    url("/home/linguini/.config/wlogout/icons/lock.png"),
+    url("/home/linguini/.config/wlogout/icons/lock.png")
+  );
+}
+
+#logout {
+  background-image: image(
+    url("/home/linguini/.config/wlogout/icons/logout.png"),
+    url("/home/linguini/.config/wlogout/icons/logout.png")
+  );
+}
+
+#suspend {
+  background-image: image(
+    url("/home/linguini/.config/wlogout/icons/suspend.png"),
+    url("/home/linguini/.config/wlogout/icons/suspend.png")
+  );
+}
+
+#hibernate {
+  background-image: image(
+    url("/home/linguini/.config/wlogout/icons/hibernate.png"),
+    url("/home/linguini/.config/wlogout/icons/hibernate.png")
+  );
+}
+
+#shutdown {
+  background-image: image(
+    url("/home/linguini/.config/wlogout/icons/shutdown.png"),
+    url("/home/linguini/.config/wlogout/icons/shutdown.png")
+  );
+}
+
+#reboot {
+  background-image: image(
+    url("/home/linguini/.config/wlogout/icons/reboot.png"),
+    url("/home/linguini/.config/wlogout/icons/reboot.png")
+  );
+}
