@@ -3,3 +3,5 @@ google-chrome-for-testing/
 matplotlib/
 PreMiD/Crash Reports
 pulse/
+obs-studio/logs
+obs-studio/profiler_data
