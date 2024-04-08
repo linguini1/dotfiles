@@ -1,43 +1,51 @@
+@import url("/home/linguini/.config/gtk-3.0/gruvbox.css");
+
 window {
     margin: 0px;
-    border: 5px solid #1e1e2e;
-    background-color: #cdd6f4;
+    background-color: @bg0;
     border-radius: 15px;
+    color: @fg0;
 }
 
 #input {
-    padding: 4px;
-    margin: 4px;
-    padding-left: 20px;
-    border: none;
-    color: #cdd6f4;
-    font-weight: bold;
-    background-color: #1e1e2e;
-    background: ;
-   	outline: none;
-    border-radius: 15px;
     margin: 10px;
-    margin-bottom: 2px;
+    padding: 4px;
+    padding-left: 10px;
+    border-color: @fg0;
+    border-style: solid;
+    border-width: 1px;
+    color: @fg0;
+    background-color: @bg1;
+    border-radius: 15px;
+    outline: none;
 }
+
 #input:focus {
-    border: 0px solid #1e1e2e;
-    margin-bottom: 0px;
+    border-color: @yellow-dark;
+    border-width: 2px;
+    outline: none;
+}
+
+#input:selected {
+    border-color: @yellow-dark;
+    border-width: 2px;
+    outline: none;
 }
 
 #inner-box {
     margin: 4px;
-    border: 10px solid #1e1e2e;
-    color: #cdd6f4;
+    color: @fg0;
     font-weight: bold;
-    background-color: #1e1e2e;
+    background-color: @bg1;
     border-radius: 15px;
 }
 
 #outer-box {
     margin: 0px;
+    padding: 15px;
     border: none;
     border-radius: 15px;
-    background-color: #1e1e2e;
+    background-color: @bg;
 }
 
 #scroll {
@@ -45,20 +53,22 @@ window {
     border: none;
     border-radius: 15px;
     margin-bottom: 5px;
-    /* background: rgb(255,255,255); */
 }
 
-#img:selected {
-    background-color: #89b4fa;
+#img {
+    margin-right: 15px;
     border-radius: 15px;
+}
+
+#text {
+    font-weight: 300;
+    border: none;
+    margin: 0px 0px;
 }
 
 #text:selected {
-    color: #cdd6f4;
-    margin: 0px 0px;
-    border: none;
-    border-radius: 15px;
-    background-color: #89b4fa;
+    color: @bg0;
+    font-weight: 800;
 }
 
 #entry {
@@ -72,5 +82,5 @@ window {
     margin: 0px 0px;
     border: none;
     border-radius: 15px;
-    background-color: #89b4fa;
+    background-color: @yellow-dark;
 }
