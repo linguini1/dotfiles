@@ -59,17 +59,20 @@
   "system": {
     "check_for_kicad_updates": true,
     "file_history": [
-      "/home/linguini/school/sysc3010/sysc3010-project-l1-g8/docs/assets/schematics/alarm/alarm.kicad_pro",
-      "/home/linguini/school/sysc3010/sysc3010-project-l1-g8/docs/assets/schematics/smoke-detector/smoke-detector.kicad_pro"
+      "/home/linguini/kicad/isp-programmer/isp-programmer.kicad_pro",
+      "/home/linguini/school/sysc3010/sysc3010-project-l1-g8/docs/assets/schematics/smoke-detector/smoke-detector.kicad_pro",
+      "/home/linguini/kicad/tiny-stack/radio-board/radio-board.kicad_pro",
+      "/home/linguini/kicad/tiny-stack/tiny-stack.kicad_pro",
+      "/home/linguini/school/sysc3010/sysc3010-project-l1-g8/docs/assets/schematics/alarm/alarm.kicad_pro"
     ],
     "first_run_shown": false,
     "last_imperial_units": 5,
     "last_metric_units": 1,
     "last_received_update": "",
-    "last_update_check_time": "2024-04-02T09:07:00",
+    "last_update_check_time": "2024-05-18T17:33:58",
     "max_undo_items": 0,
     "open_projects": [
-      "/home/linguini/school/sysc3010/sysc3010-project-l1-g8/docs/assets/schematics/alarm/alarm.kicad_pro"
+      "/home/linguini/kicad/isp-programmer/isp-programmer.kicad_pro"
     ],
     "units": 1
   },
@@ -216,12 +219,12 @@
       "user_grid_y": ""
     },
     "maximized": true,
-    "mru_path": "/home/linguini/school/sysc3010/sysc3010-project-l1-g8/docs/assets/schematics/alarm/",
-    "perspective": "layout2|name=MainToolbar;caption=;state=139644;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=227;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ProjectTree;caption=Project Files;state=1532;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Launcher;caption=Editors;state=508;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=737;besth=560;minw=737;minh=560;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,2,0)=34|dock_size(4,1,0)=250|dock_size(5,0,0)=737|",
-    "pos_x": 1141,
-    "pos_y": 568,
-    "size_x": 1558,
-    "size_y": 1024,
+    "mru_path": "/home/linguini/kicad/isp-programmer/",
+    "perspective": "layout2|name=MainToolbar;caption=;state=139644;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=42;besth=275;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ProjectTree;caption=Project Files;state=1532;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Launcher;caption=Editors;state=508;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=737;besth=560;minw=737;minh=560;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,2,0)=42|dock_size(4,1,0)=250|dock_size(5,0,0)=737|",
+    "pos_x": 960,
+    "pos_y": 552,
+    "size_x": 1920,
+    "size_y": 1055,
     "zoom_factors": []
   }
 }
