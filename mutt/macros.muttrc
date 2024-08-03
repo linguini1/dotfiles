@@ -1,4 +1,35 @@
-macro index gd "<change-folder>$postponed<enter>" "go to drafts"
-macro index gs "<change-folder>$record<enter>" "go to sent"
-macro index gi "<change-folder>$spoolfile<Enter>" "go to inbox"
-macro index gt "<change-folder>$trash<enter>" "go to trash""
+# SIDEBAR NAVIGATION
+bind index,pager \CP sidebar-prev # Ctrl + P | Previous mailbox
+bind index,pager \CN sidebar-next # Ctrl + N | Next mailbox
+bind index,pager \CY sidebar-open # Ctrl + Y | Open selected mailbox
+
+# MENU NAVIGATION
+
+# Index page/entries
+
+bind index g noop # Clear g key to allow for g<something> keys
+bind index gg first-entry # gg | Top of page
+bind index G last-entry # G | Bottom of page
+
+# Mail viewer
+
+bind pager j next-line # Down one line with j
+bind pager k previous-line # Up one line with j
+bind pager l next-entry # Next email with l
+bind pager h previous-entry # Previous email with h
+bind pager \CD next-page # Next page with Ctrl + D
+bind pager \CU previous-page # Next page with Ctrl + U
+bind pager g noop # Clear g key to allow for g<something> keys
+bind pager gg top # Jump to top with gg
+bind pager G bottom # Jump to bottom with gg
+
+# SENDING MAIL
+
+bind index n mail # New message
+bind index R group-chat-reply # Reply all preserving To/CC
+
+# Composer
+bind compose K attach-key # Attach PGP public key
+bind compose f edit-from # Edit From field
+bind compose F edit-fcc # Specify Fcc mailbox
+bind compose i edit-message # Edit message

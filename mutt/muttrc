@@ -18,7 +18,19 @@ set record = "+[Gmail]/Sent Mail"
 set trash = "+[Gmail]/Trash"
 
 # Mailboxes
-mailboxes =INBOX =[Gmail]/Drafts
+named-mailboxes inbox +INBOX
+named-mailboxes sent "+[Gmail]/Sent Mail"
+named-mailboxes drafts "+[Gmail]/Drafts"
+named-mailboxes trash "+[Gmail]/Trash"
+
+# Sorting
+set sort = reverse-date
+set sort_aux = last-date-received
+set use_threads = yes
 
 # Macros
-# source macros.muttrc
+source macros.muttrc
+
+# Appearance
+source ./colours/mail.muttrc
+source sidebar.muttrc

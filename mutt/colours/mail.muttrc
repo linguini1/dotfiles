@@ -1,0 +1,22 @@
+set color_directcolor
+
+color error #cc241d default
+color warning #d79921 default
+color normal #fbf1c7 default
+color signature #ebdbb2 default
+color tilde none default default
+color attachment bold #458588 default
+
+# Quotes
+color quoted #ebdbb2 default
+color quoted1 #d5c4a1 default
+color quoted2 #bdae93 default
+color quoted3 #a89984 default
+color quoted4 #928374 default
+color quoted5 #7c6f64 default
+color quoted6 #665c54 default
+color quoted7 #665c54 default
+color quoted8 #665c54 default
+color quoted9 #665c54 default
+
+color bold bold default default
