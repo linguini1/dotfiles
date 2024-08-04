@@ -19,7 +19,6 @@ named-mailboxes drafts "+[Gmail]/Drafts"
 named-mailboxes sent "+[Gmail]/Sent Mail"
 named-mailboxes starred "+[Gmail]/Starred"
 named-mailboxes important "+[Gmail]/Important"
-named-mailboxes scheduled "+[Gmail]/Scheduled"
 named-mailboxes spam "+[Gmail]/Spam"
 named-mailboxes trash "+[Gmail]/Trash"
 named-mailboxes inbox +INBOX
