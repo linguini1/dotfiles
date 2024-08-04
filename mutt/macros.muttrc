@@ -38,4 +38,8 @@ bind compose f edit-from # Edit From field
 bind compose F edit-fcc # Specify Fcc mailbox
 bind compose i edit-message # Edit message
 
-# LINE EDITOR
+# THREADS
+bind index zc collapse-thread # Toggle collapse
+bind index zC collapse-all # Toggle collapse for all
+bind index zo collapse-thread # Allow these keybinds too (un-collapse) in case Vim habits get the better of me
+bind index zO collapse-all
