@@ -1,6 +1,7 @@
 # Personal information
 set from = "matteo.golin@gmail.com"
 set realname = "Matteo Golin"
+set signature = ./signature
 
 # IMAP settings
 set imap_user = "matteo.golin@gmail.com"

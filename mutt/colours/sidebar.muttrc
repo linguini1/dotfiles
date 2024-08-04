@@ -1,3 +1,27 @@
-color sidebar_unread #689d6a default
-color sidebar_new #689d6a default
-color sidebar_highlight #d5c4a1 default
+# gruvbox dark (contrast dark):
+
+# bg0    = 234
+# bg1    = 237
+# bg2    = 239
+# bg3    = 241
+# bg4    = 243
+# 
+# gray   = 245
+# 
+# fg0    = 229
+# fg1    = 223
+# fg2    = 250
+# fg3    = 248
+# fg4    = 246
+# 
+# red    = 167
+# green  = 142
+# yellow = 214
+# blue   = 109
+# purple = 175
+# aqua   = 108
+# orange = 208
+
+color sidebar_unread     color108 default
+color sidebar_divider    color250 default
+color sidebar_new        color142 default

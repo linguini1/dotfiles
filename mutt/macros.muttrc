@@ -1,3 +1,5 @@
+set abort_key = "<Esc>"
+
 # SIDEBAR NAVIGATION
 bind index,pager \CP sidebar-prev # Ctrl + P | Previous mailbox
 bind index,pager \CN sidebar-next # Ctrl + N | Next mailbox
@@ -10,6 +12,8 @@ bind index,pager \CY sidebar-open # Ctrl + Y | Open selected mailbox
 bind index g noop # Clear g key to allow for g<something> keys
 bind index gg first-entry # gg | Top of page
 bind index G last-entry # G | Bottom of page
+bind index j next-entry # Down one line with j
+bind index k previous-entry # Up one line with j
 
 # Mail viewer
 
@@ -33,3 +37,5 @@ bind compose K attach-key # Attach PGP public key
 bind compose f edit-from # Edit From field
 bind compose F edit-fcc # Specify Fcc mailbox
 bind compose i edit-message # Edit message
+
+# LINE EDITOR
