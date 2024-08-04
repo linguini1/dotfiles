@@ -35,3 +35,6 @@ source macros.muttrc
 # Appearance
 source ./colours/mail.muttrc
 source sidebar.muttrc
+
+# Encryption
+source ./gpg.muttrc
