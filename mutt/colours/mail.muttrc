@@ -96,10 +96,11 @@ color body color142 default "(([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA
 color body color208 default "[-a-z_0-9.%$]+@[-a-z_0-9.]+\\.[-a-z][-a-z]+"
 color body color208 default "mailto:[-a-z_0-9.]+@[-a-z_0-9.]+"
 
-# some simleys and stuff
+# Some smileys
 color body color234 color214 "[;:]-*[)>(<lt;|]"
 color body color229 default "\\*[- A-Za-z]+\\*"
 
+# GPG
 color body color214 default "^-.*PGP.*-*"
 color body color142 default "^gpg: Good signature from"
 color body color167 default "^gpg: Can't.*$"

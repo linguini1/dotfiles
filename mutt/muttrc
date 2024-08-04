@@ -11,18 +11,9 @@ set imap_pass = "`pass google/matteo.golin/neomutt`"
 set smtp_url = "smtps://matteo.golin@smtp.gmail.com"
 set smtp_pass = "`pass google/matteo.golin/neomutt`"
 
-# Folders
-set folder = "imaps://imap.gmail.com/"
-set spoolfile = "+INBOX"
-set postponed = "+[Gmail]/Drafts"
-set record = /dev/null # Gmail automatically records sent mail
-set trash = "+[Gmail]/Trash"
-
 # Mailboxes
-named-mailboxes inbox +INBOX
-named-mailboxes sent "+[Gmail]/Sent Mail"
-named-mailboxes drafts "+[Gmail]/Drafts"
-named-mailboxes trash "+[Gmail]/Trash"
+source ./mailboxes/gmail-boxes.muttrc
+source ./mailboxes/custom-gmail-labels.muttrc
 
 # Sorting
 set sort = reverse-date
@@ -33,11 +24,11 @@ set use_threads = yes
 source macros.muttrc
 
 # Appearance
-source ./colours/mail.muttrc
+source colours/mail.muttrc
 source sidebar.muttrc
 
 # Encryption
-source ./gpg.muttrc
+source gpg.muttrc
 
 # Aliases
-source ./aliases/shorts.muttrc
+source aliases/shorts.muttrc
