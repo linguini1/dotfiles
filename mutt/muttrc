@@ -1,7 +1,7 @@
 # Personal information
 set from = "matteo.golin@gmail.com"
 set realname = "Matteo Golin"
-set signature = ./signature
+set signature = ~/.config/mutt/signature
 
 # IMAP settings
 set imap_user = "matteo.golin@gmail.com"
@@ -15,7 +15,7 @@ set smtp_pass = "`pass google/matteo.golin/neomutt`"
 set folder = "imaps://imap.gmail.com/"
 set spoolfile = "+INBOX"
 set postponed = "+[Gmail]/Drafts"
-set record = "+[Gmail]/Sent Mail"
+set record = /dev/null # Gmail automatically records sent mail
 set trash = "+[Gmail]/Trash"
 
 # Mailboxes
@@ -38,3 +38,6 @@ source sidebar.muttrc
 
 # Encryption
 source ./gpg.muttrc
+
+# Aliases
+source ./aliases/shorts.muttrc
