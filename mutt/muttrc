@@ -1,7 +1,10 @@
+# Configuration directory
+set my_cfgdir = ~/.config/mutt
+
 # Personal information
 set from = "matteo.golin@gmail.com"
 set realname = "Matteo Golin"
-set signature = ~/.config/mutt/signature
+set signature = ./signatures/regular.signature
 
 # IMAP settings
 set imap_user = "matteo.golin@gmail.com"
@@ -11,9 +14,15 @@ set imap_pass = "`pass google/matteo.golin/neomutt`"
 set smtp_url = "smtps://matteo.golin@smtp.gmail.com"
 set smtp_pass = "`pass google/matteo.golin/neomutt`"
 
+# Colours
+source ./colours/gruvbox/gruvbox.muttrc
+
 # Mailboxes
 source ./mailboxes/gmail-boxes.muttrc
 source ./mailboxes/custom-gmail-labels.muttrc
+
+# Sidebar
+source ./sidebar.muttrc
 
 # Sorting
 set sort = reverse-date
@@ -21,14 +30,10 @@ set sort_aux = last-date-received
 set use_threads = yes
 
 # Macros
-source macros.muttrc
-
-# Appearance
-source colours/mail.muttrc
-source sidebar.muttrc
+source ./macros.muttrc
 
 # Encryption
-source gpg.muttrc
+source ./gpg.muttrc
 
 # Aliases
-source aliases/shorts.muttrc
+source ./aliases/shorts.muttrc

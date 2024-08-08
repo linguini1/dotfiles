@@ -5,15 +5,6 @@ set postponed = "+[Gmail]/Drafts"
 set record = /dev/null # Gmail automatically records sent mail
 set trash = "+[Gmail]/Trash"
 
-# Gmail "Categories"
-# This requires creating and exposing a filter as a label in Gmail
-# https://dylanconlin.svbtle.com/exposing-gmails-categories-to-imap
-named-mailboxes primary "+neomutt/primary"
-named-mailboxes forums "+neomutt/forums"
-named-mailboxes social "+neomutt/social"
-named-mailboxes updates "+neomutt/updates"
-named-mailboxes promotions "+neomutt/promotions"
-
 # Regular Gmail Mailboxes
 named-mailboxes drafts "+[Gmail]/Drafts"
 named-mailboxes sent "+[Gmail]/Sent Mail"
